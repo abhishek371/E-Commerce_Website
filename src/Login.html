@@ -1,0 +1,80 @@
+<html>
+<head>
+	<title>Login</title>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.min.css" type=" text/css">
+	<script src="bootstrap/js/jquery.min.js"></script>
+	<script src="bootstrap/js/bootstrap.min.js"></script>
+</head>
+<style type="text/css">
+	.container_style{
+		font-size: 18px;
+		height:50px;
+	}
+	.link_style{
+		font-size: 25px;
+	}
+	#a{
+		color: blue;
+		text-decoration: none;
+	}
+	footer{
+		background-color: #000;  text-align: center;   color:#fff;     font-size:14px; height:40px; padding-top: 12px; margin-top: 150px;
+	}
+</style>
+<body>
+
+	<nav class="navbar navbar-inverse">
+		<div class="container container_style">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#data" aria-expanded="false" aria-controls="navbar">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a href="index.html" class="navbar-brand link_style"> Lifestyle Store</a>
+			</div>
+			<div id="data" class="navbar-collapse collapse">
+				<ul class="nav navbar-nav navbar-right ">
+					<li><a href="signup.html"><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
+					<li><a href="Login.html"><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+
+	<div class="container-fluid">
+		<div class="panel panel-primary">
+			<div class="panel-heading">
+				<h4>LOGIN</h4>
+			</div>
+			<div class="panel-body">
+				<p class="text-warning"> Login to make a purchase</p>
+				<form>
+					<div class="form-group">
+						<input type="text" class="font-control input-lg" name="Email" placeholder="Email" size="50">
+					</div>
+					<div class="form-group">
+						<input type="text" class="font-control input-lg" name="Password" placeholder="Password" size="50" >
+					</div>
+					<div class="checkbox">
+						<label><input type="checkbox"> Remember me</label>
+					</div>
+					<button type="Login" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+			<div class="panel-footer">
+				<p> Don't have an account?<a href="signup.html" id="a"><b> Register</b></a></p>
+				
+			</div>
+		</div>
+		</div>
+
+		<footer>
+				<p>Copyright © Lifestyle Store. All Rights Reserved | Contact Us: +91 90000 00000</p>
+		</footer>	
+	
+	</body>
+	</html>        
